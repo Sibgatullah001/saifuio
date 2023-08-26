@@ -778,6 +778,10 @@ footer .footer_items .address li p {
   h2 {
     font-size: 40px;
   }
+  .play_popup iframe {
+    width: 500px;
+    height: 300px;
+  }
   header .down_bar nav {
     height: auto;
   }
@@ -814,6 +818,10 @@ footer .footer_items .address li p {
 @media screen and (max-width: 576px) {
   h2 {
     font-size: 38px;
+  }
+  .play_popup iframe {
+    width: 350px;
+    height: auto;
   }
   footer .footer_items {
     grid-template-columns: 1fr;

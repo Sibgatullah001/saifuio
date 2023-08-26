@@ -845,6 +845,13 @@ footer{
     h2{
         font-size: 40px;
     }
+    // poppup-------------------- 
+    .play_popup {
+        iframe{
+            width: 500px;
+            height: 300px;
+        }
+    }
     // header ---------------
     header {
         .down_bar{
@@ -903,6 +910,13 @@ footer{
 @media screen and  (max-width: 576px){
     h2 {
         font-size: 38px;
+    }
+    // poppup-------------------- 
+    .play_popup {
+        iframe{
+            width: 350px;
+            height: auto;
+        }
     }
     // footer -----------
     footer{
